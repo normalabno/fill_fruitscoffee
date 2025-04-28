@@ -1,4 +1,4 @@
-import Image from "next/image";
+/**import Image from "next/image";**/
 import { Metadata } from 'next'
 import Hero from "./components/Hero";
 
