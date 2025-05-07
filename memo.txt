@@ -1,0 +1,21 @@
+routing
+   pages(index)
+      section*10
+   company
+      Bigtitle
+      section*2
+   history
+      Bigtitle
+      section*6
+   contact
+   policy
+
+   ネクタルーインド神話に出てくる神秘的な飲み物。飲むものに不死を与える。
+   なんでインド神話なの？
+   実は当店自慢の果物にあうコーヒーはマンゴーをブレンドしている。
+   そのマンゴーはインドの経路から直輸入されている。
+   そしてこのマンゴーが、インドは世界で45％のシェアを誇っている。
+
+   もし現代で
+
+   
