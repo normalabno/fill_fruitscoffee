@@ -12,20 +12,21 @@ const Footer = () => {
           <Ptag className=""><Link href="/requestform">ご質問・お問い合わせ</Link></Ptag>
           <Ptag><Link href="/siterule">サイト規約</Link></Ptag>
           <Ptag><Link href="/allergie">アレルギー情報</Link></Ptag>
+          <Ptag><Link href="/pagelinkbook">サイト内リンク集</Link></Ptag>
         </div>
         
         <ul className=" w-fit flex flex-row gap-x-4 ml-2">
-          <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer"><Image src="/X.svg" alt="Xのリンクロゴ" width={8} height={8} loading="lazy" decoding="async" className="w-8 h-8 align-baseline" /></a></li>
+          <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer"><Image src="/X.svg" alt="Xのリンクロゴ" width={128} height={128} loading="lazy" decoding="async" className="w-8 h-8 align-baseline" /></a></li>
 
-          <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><Image src="/instagram.svg" alt="instagramのリンクロゴ" loading="lazy" decoding="async" width={8} height={8} className="w-8 h-8 align-baseline" /></a></li>
+          <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><Image src="/instagram.svg" alt="instagramのリンクロゴ" loading="lazy" decoding="async" width={128} height={128} className="w-8 h-8 align-baseline" /></a></li>
 
-          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><Image src="/facebook.svg" alt="facebookのリンクロゴ" loading="lazy" decoding="async" width={8} height={8} className="w-8 h-8 align-baseline" /></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><Image src="/facebook.svg" alt="facebookのリンクロゴ" loading="lazy" decoding="async" width={128} height={128} className="w-8 h-8 align-baseline" /></a></li>
 
-          <li><a href="https://www.line.me/ja/" target="_blank" rel="noopener noreferrer"><Image src="/Line.png" alt="Lineのリンクロゴ" loading="lazy" decoding="async" width={8} height={8} className="w-7 h-7 align-baseline mt-0.5" /></a></li>
+          <li><a href="https://www.line.me/ja/" target="_blank" rel="noopener noreferrer"><Image src="/Line.png" alt="Lineのリンクロゴ" loading="lazy" decoding="async" width={128} height={128} className="w-7 h-7 align-baseline mt-0.5" /></a></li>
 
-          <li><a href="https://www.tiktok.com/explore" target="_blank" rel="noopener noreferrer"><Image src="/tiktok.png" alt="tiktokのリンクロゴ" loading="lazy" decoding="async" width={8} height={8} className="w-7 h-7 align-baseline mt-0.5 " /></a></li>
+          <li><a href="https://www.tiktok.com/explore" target="_blank" rel="noopener noreferrer"><Image src="/tiktok.png" alt="tiktokのリンクロゴ" loading="lazy" decoding="async" width={128} height={128} className="w-7 h-7 align-baseline mt-0.5 " /></a></li>
           <li className="overflow-x-auto"><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><Image src="/youtube.png" alt="youtubeのリンクロゴ"
-          loading="lazy" decoding="async"width={8} height={8} className="w-8 h-8 align-baseline object-contain" /></a></li>
+          loading="lazy" decoding="async"width={128} height={128} className="w-8 h-8 align-baseline object-contain" /></a></li>
         </ul>
         <small className="block ml-2">© 2025 FiLL Company. All rights reserved.</small>
         </div>

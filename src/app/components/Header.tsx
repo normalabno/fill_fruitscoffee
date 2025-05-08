@@ -11,7 +11,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="mt-5 md:mt-4 lg:mt-1 font-medium ">
-          <Ptag className="brownColor md:text-3xl lg:text-4xl">日本初のフルーツカフェ</Ptag>
+          <Ptag className="brownColor md:text-3xl">焙煎搾りたて。日本初のフルーツカフェ</Ptag>
         </div>
         <div className="h-100% hidden md:flex flex-row justify-between gap-x-2 mt-2 ">
           <Link href="/menu" className="hover:-rotate-45"><p className="ri-book-read-line text-4xl brownColor"></p></Link>
