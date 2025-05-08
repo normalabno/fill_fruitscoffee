@@ -15,6 +15,10 @@
   --textAccentColor: #0045c5;
   --footerbackground:rgba(255, 235, 195, 0.94);
 }
+.h1LetterSpace{
+  letter-spacing: 10px;
+
+}
 .headerTextColor{
   color: var(--themeColor);
   font-weight:600;

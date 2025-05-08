@@ -2,8 +2,11 @@ import { Ptag } from "./Ptag"
 import Link from "next/link"
 const Footer = () => {
   return (
-      <footer className="w-full footerColor pb-20 pt-8 md:pb-4 mb:pt-4">
-        <div className="flex flex-col gap-y-8 ml-2">
+      <footer className="w-full bg-amber-50 pb-20 pt-8 md:pb-4 mb:pt-4">
+       <div className="flex flex-row justify-center my-4">
+          <div className="w-[90%] h-[3px] bg-amber-100"></div>
+       </div>
+        <div className="flex flex-col gap-y-8 ml-2 mt-8">
         <div className="flex flex-col gap-y-4 ml-2">
           <Ptag className=""><Link href="/requestform">ご質問・お問い合わせ</Link></Ptag>
           <Ptag><Link href="/siterule">サイト規約</Link></Ptag>

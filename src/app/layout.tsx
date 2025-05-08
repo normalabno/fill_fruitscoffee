@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
+/**
+import { Geist, Geist_Mono } from "next/font/google";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,7 +14,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
+**/
 export const metadata: Metadata = {
  title: 'Fill　日本初のフルーツカフェ',
  description: '日本で一番最初にできた、果物とコーヒーをかけあわせたカフェ。「コーヒーと果物は合わない」といった偏見を覆す。果物に合うコーヒーの独自開発に成功。さらに果物は自家栽培、農地直送、高級ブランド品まで、こだわったものを取り扱っております。',
@@ -57,12 +58,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <div className="w-full h-[100vh] bodybackground">
           <Header />
           {children}
           <Footer />
           <BottomNav/>
-        </div>
       </body>
     </html>
   );
