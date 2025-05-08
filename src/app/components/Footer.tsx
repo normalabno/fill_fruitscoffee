@@ -12,7 +12,6 @@ const Footer = () => {
           <Ptag className=""><Link href="/requestform">ご質問・お問い合わせ</Link></Ptag>
           <Ptag><Link href="/siterule">サイト規約</Link></Ptag>
           <Ptag><Link href="/allergie">アレルギー情報</Link></Ptag>
-          <Ptag><Link href="/sitemap">サイトマップ</Link></Ptag>
         </div>
         
         <ul className=" w-fit flex flex-row gap-x-4 ml-2">

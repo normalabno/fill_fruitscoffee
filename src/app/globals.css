@@ -19,6 +19,9 @@
   letter-spacing: 10px;
 
 }
+.textGorgeousShadow{
+ text-shadow: 8px 8px 6px rgba(0, 0, 0, 0.75)';
+}
 .headerTextColor{
   color: var(--themeColor);
   font-weight:600;

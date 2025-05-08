@@ -22,7 +22,7 @@ export default function Home() {
         <section className="flex flex-col justify-center items-center pt-4">
         </section>
         <section className="flex flex-col items-center">
-          <H1tag className="tracking-widest">Feature</H1tag>
+          <H1tag className="tracking-widest textGorgeousShadow">Feature</H1tag>
           <div className="flex flex-row gap-x-2">
             <p className="bg-gray-500 w-1/4 h-1/2 max-w-140px">カード</p>
             <p className="bg-gray-500 w-1/4 h-1/2 max-w-140px">カード</p>
