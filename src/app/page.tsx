@@ -1,4 +1,4 @@
-/**import Image from "next/image";**/
+import Image from "next/image";
 import  H1tag  from "./components/H1tag";
 import  Ptag  from "./components/Ptag";
 
@@ -7,13 +7,15 @@ export default function Home() {
   return (
       <main className="bg-white">  
         <section className="flex flex-col">
-          <img src="/blueberrycoffee.jpg" className="lg:w-1/2"></img>
+
+          <Image src="/blueberrycoffee.jpg" alt="ブルーベリーコーヒー" loading="lazy" decoding="async" width={128} height={128} className="lg-w-1/2" />
           <div className="w-full lg:w-1/2 flex flex-row">
-            <img src="/fruitscurry.jpg" className="aspect-auto"></img>
+            <Image src="/fruitscurry.jpg" alt="フルーツカレー" width={128} height={128} className="aspect-auto" />
             <div className="w-1/2 flex flex-wrap">
-              <img src="/fruitscookie.jpg" className="w-1/2"></img>
-              <img src="/fruitssalada.jpg" className="w-1/2"></img>
-              <img src="/fruitspaffee.jpg" className="w-1/2"></img>              <img src="/fruitspizza.jpg" className="w-1/2"></img>
+              <Image src="/fruitscookie.jpg" alt="フルーツクッキー" width={128} height={128} className="w-1/2" />
+              <Image src="/fruitssalada.jpg" alt="フルーツサラダ" width={128} height={128} className="w-1/2" />
+              <Image src="/fruitspaffee.jpg" alt="フルーツパフェ" width={128} height={128} className="w-1/2" />      
+              <Image src="/fruitspizza.jpg" alt="フルーツピザ" width={128} height={128} className="w-1/2" />
             </div>
           </div>
         </section>    

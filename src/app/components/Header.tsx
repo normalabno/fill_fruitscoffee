@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Ptag } from "./Ptag"
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
       <header className="max-w-[100vw] h-[60px] md:h-[96px] mb-4 flex justify-around items-center bg-white z-50 shadow-xl">
         <div className="mr-16">
           <Link href="/">
-            <img src="/filllogo.png" alt="logo" className="w-[64px] h-[64px] object-contain"/>
+            <Image src="/filllogo.png" alt="会社Fillのlogo" width={64} height={64} className="w-[64px] h-[64px] object-contain"/>
           </Link>
         </div>
         <div className="mt-5 md:mt-4 lg:mt-1 font-medium ">
