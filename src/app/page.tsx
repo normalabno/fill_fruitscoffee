@@ -1,6 +1,5 @@
 import Image from "next/image";
 import  H1tag  from "./components/H1tag";
-import  Ptag  from "./components/Ptag";
 
 
 export default function Home() {
