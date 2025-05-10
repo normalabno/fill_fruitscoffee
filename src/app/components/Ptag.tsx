@@ -7,7 +7,7 @@ type PtagProps = {
 
 export function Ptag({ children, className = "" }: PtagProps) {
   return (
-    <p className={`text-base md:text-lg leading-relaxed noto-serif-jp ${className}`}>
+    <p className={`text-sm md:text-base leading-relaxed noto-serif-jp ${className}`}>
       {children}
     </p>
   );

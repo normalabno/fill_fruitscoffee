@@ -1,20 +1,22 @@
 import Image from "next/image";
 import  H1tag  from "./components/H1tag";
+import FeatureCard from "./components/FeatureCard";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
       <main className="bg-white">  
         <section className="flex flex-col">
-
-          <Image src="/blueberrycoffee.jpg" alt="ブルーベリーコーヒー" loading="lazy" decoding="async" width={1920} height={1080} className="w-full h-auto aspect-video lg-w-1/2" />
+          <H1tag className="tracking-widest textGorgeousShadow my-8 mx-auto">New Menu</H1tag>
+          <Image src="/blueberrycoffee.jpg" alt="ブルーベリーコーヒー" loading="lazy" decoding="async" width={1280} height={720} className="w-full h-auto aspect-video lg-w-1/2" />
           <div className="w-full lg:w-1/2 flex flex-row">
-            <Image src="/fruitscurry.jpg" alt="フルーツカレー" width={1920} height={1080} className="aspect-auto" />
+            <Image src="/fruitscurry.jpg" alt="フルーツカレー" width={1280} height={720} className="aspect-auto" />
             <div className="w-1/2 flex flex-wrap">
-              <Image src="/fruitscookie.jpg" alt="フルーツクッキー" width={1920} height={1080} className="w-1/2" />
-              <Image src="/fruitssalada.jpg" alt="フルーツサラダ" width={1920} height={1080} className="w-1/2" />
-              <Image src="/fruitspaffee.jpg" alt="フルーツパフェ" width={1920} height={1080} className="w-1/2" />      
-              <Image src="/fruitspizza.jpg" alt="フルーツピザ" width={1920} height={1080} className="w-1/2" />
+              <Image src="/fruitscookie.jpg" alt="フルーツクッキー" width={1280} height={720} className="w-1/2" />
+              <Image src="/fruitssalada.jpg" alt="フルーツサラダ" width={1280} height={720} className="w-1/2" />
+              <Image src="/fruitspaffee.jpg" alt="フルーツパフェ" width={1280} height={720} className="w-1/2" />      
+              <Image src="/fruitspizza.jpg" alt="フルーツピザ" width={1280} height={720} className="w-1/2" />
             </div>
           </div>
         </section>    
@@ -22,10 +24,30 @@ export default function Home() {
         </section>
         <section className="flex flex-col items-center">
           <H1tag className="tracking-widest textGorgeousShadow">Feature</H1tag>
-          <div className="flex flex-row gap-x-2">
-            <p className="bg-gray-500 w-1/4 h-1/2 max-w-140px">カード</p>
-            <p className="bg-gray-500 w-1/4 h-1/2 max-w-140px">カード</p>
-            <p className="bg-gray-500 w-1/4 h-1/2 max-w-140px">カード</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 mt-12">
+            <FeatureCard 
+              srcimage="/wifigood.jpg" 
+              alt="Wi-Fi利用可能" 
+              text="店内フリーWi-Fi" 
+            />
+            <Link href="/deal" className="flex-1 bg-cyan-200">
+            <FeatureCard 
+              srcimage="/touchdeal.png" 
+              alt="電子決済" 
+              text="多くの決済方法" 
+            />
+            </Link>
+            <FeatureCard 
+              srcimage="/garbagegood.png" 
+              alt="" 
+              text="店内ゴミ捨ててOK！" 
+            />
+            <FeatureCard 
+              srcimage="/police.png" 
+              alt="警察署の近くの立地" 
+              text="警察署近くで安心" 
+            />
+            
           </div>
         </section>
         {/*<section>
