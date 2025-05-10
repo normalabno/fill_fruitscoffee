@@ -4,7 +4,7 @@ import Ptag from "../components/Ptag";
 //import Link from "next/link";
 
 
-export default function Home() {
+export default function Historyhome() {
   return (
       <div className="bg-white flex flex-col items-center gap-y-4">  
          <H1tag className="mx-auto mt-12">歴史</H1tag>

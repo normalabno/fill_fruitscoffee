@@ -3,7 +3,7 @@ import  H1tag  from "../components/H1tag";
 import Link from "next/link";
 
 
-export default function Home() {
+export default function Maphome() {
   return (
       <div>  
         <section className="flex flex-col">        
