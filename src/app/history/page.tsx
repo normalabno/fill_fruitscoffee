@@ -7,7 +7,7 @@ import Ptag from "../components/Ptag";
 export default function Historyhome() {
   return (
       <div className="bg-white flex flex-col items-center gap-y-4">  
-         <H1tag className="mx-auto mt-12">歴史</H1tag>
+         <H1tag className="mx-auto mt-12"><i className="ri-ancient-gate-line brownColor"></i>歴史</H1tag>
          <section className="mx-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-16">
                <Image src="/history_1_outofproduce.jpg" width={1280} height={720} alt="フルーツカレー" className="hidden md:block w-full h-auto rounded-2xl shadow-2xl"/>
