@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col gap-y-8 ml-2 mt-2">
         <div className="flex flex-col gap-y-4 ml-2">
           <Ptag className=""><Link href="/requestform">ご質問・お問い合わせ</Link></Ptag>
-          <Ptag><Link href="/siterule">サイト規約</Link></Ptag>
+          <Ptag><Link href="/siterule">利用規約</Link></Ptag>
           <Ptag><Link href="/allergie">アレルギー情報</Link></Ptag>
           <Ptag><Link href="/pagelinkbook">サイト内リンク集</Link></Ptag>
         </div>

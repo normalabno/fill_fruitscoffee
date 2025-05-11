@@ -22,7 +22,7 @@ export default function Home() {
         </section>    
         <section className="flex flex-col justify-center items-center pt-4">
         </section>
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col items-center mt-24 pb-24">
           <H1tag className="tracking-widest textGorgeousShadow">Feature</H1tag>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 mt-12">
             <FeatureCard 
@@ -30,7 +30,7 @@ export default function Home() {
               alt="Wi-Fi利用可能" 
               text="店内フリーWi-Fi" 
             />
-            <Link href="/deal" className="flex-1 bg-cyan-200">
+            <Link href="/deal" className="flex-1 bg-cyan-100 rounded-2xl border-2 hover:bg-cyan-400">
             <FeatureCard 
               srcimage="/creditgood.png" 
               alt="電子決済" 
