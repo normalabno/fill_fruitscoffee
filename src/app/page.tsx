@@ -26,13 +26,13 @@ export default function Home() {
           <H1tag className="tracking-widest textGorgeousShadow">Feature</H1tag>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 mt-12">
             <FeatureCard 
-              srcimage="/wifigood.jpg" 
+              srcimage="/wifigood.png" 
               alt="Wi-Fi利用可能" 
               text="店内フリーWi-Fi" 
             />
             <Link href="/deal" className="flex-1 bg-cyan-200">
             <FeatureCard 
-              srcimage="/touchdeal.png" 
+              srcimage="/creditgood.png" 
               alt="電子決済" 
               text="多くの決済方法" 
             />
@@ -43,11 +43,10 @@ export default function Home() {
               text="店内ゴミ捨ててOK！" 
             />
             <FeatureCard 
-              srcimage="/police.png" 
+              srcimage="/policegood.png" 
               alt="警察署の近くの立地" 
               text="警察署近くで安心" 
             />
-            
           </div>
         </section>
         {/*<section>
