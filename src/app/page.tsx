@@ -8,17 +8,15 @@ export default function Home() {
   return (
       <main className="bg-white">  
         <section className="flex flex-col">
-          <H1tag className="tracking-widest textGorgeousShadow my-8 mx-auto">New Menu</H1tag>
-          <Image src="/blueberrycoffee.jpg" alt="ブルーベリーコーヒー" loading="lazy" decoding="async" width={1280} height={720} className="w-full h-auto aspect-video lg-w-1/2" />
-          <div className="w-full lg:w-1/2 flex flex-row">
-            <Image src="/fruitscurry.jpg" alt="フルーツカレー" width={1280} height={720} className="aspect-auto" />
-            <div className="w-1/2 flex flex-wrap">
-              <Image src="/fruitscookie.jpg" alt="フルーツクッキー" width={1280} height={720} className="w-1/2" />
-              <Image src="/fruitssalada.jpg" alt="フルーツサラダ" width={1280} height={720} className="w-1/2" />
-              <Image src="/fruitspaffee.jpg" alt="フルーツパフェ" width={1280} height={720} className="w-1/2" />      
-              <Image src="/fruitspizza.jpg" alt="フルーツピザ" width={1280} height={720} className="w-1/2" />
+          <H1tag className="tracking-widest textGorgeousShadow my-8 mx-auto">New Menu</H1tag>   
+            <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-2">
+              <Image src="/menu_fruitsfitcoffee.jpg" alt="フィットコーヒー" width={1280} height={720} className="transition-all duration-200 hover:scale-125 md:hover:translate-x-16 shadow-2xl border-2 rounded-2xl" />
+              <Image src="/menu_pizza.jpg" alt="フルーツピザ" width={1280} height={720} className="transition-all duration-200 hover:scale-125 md:hover:-translate-x-16 shadow-2xl border-2 rounded-2xl"/>
+              <Image src="/top_Orangecoffee.png" alt="オレンジコーヒー" width={1280} height={720} className="transition-all duration-200 hover:scale-125 md:hover:translate-x-16 shadow-2xl border-2 rounded-2xl"/>
+              <Image src="/top_strawberrycoffee.png" alt="レッドコーヒー" width={1280} height={720} className="transition-all duration-200 hover:scale-125 hmd:over:-translate-x-16 shadow-2xl border-2 rounded-2xl"/>
+              <Image src="/top_greenapple.png" alt="グリーンコーヒー" width={1280} height={720} className="transition-all duration-200 hover:scale-125 md:hover:translate-x-16 shadow-2xl border-2 rounded-2xl"/>      
+              <Image src="/top_blueberrycoffee.png" alt="ブルーコーヒー" width={1280} height={720} className="transition-all duration-200 hover:scale-125 md:hover:-translate-x-16 shadow-2xl border-2 rounded-2xl"/>
             </div>
-          </div>
         </section>    
         <section className="flex flex-col justify-center items-center pt-4">
         </section>
