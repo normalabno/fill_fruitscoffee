@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Ptag from "./Ptag";
 type MenucardProps = {
-  className?: string;
   srcimage?: string;
   name?: string;
   price?:string,
@@ -10,7 +9,7 @@ type MenucardProps = {
 };
 
 
-export function Menucard({className, srcimage = "", name = "Feature image",allergie="",price="free" }: MenucardProps) {
+export function Menucard({srcimage = "", name = "Feature image",allergie="",price="free" }: MenucardProps) {
   return (
 
    <div className="w-[140px] h-[280px] bg-amber-200 rounded-2xl flex flex-col items-start">
