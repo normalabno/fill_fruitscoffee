@@ -60,7 +60,7 @@ export default function Historyhome() {
                   <Ptag className="mt-4 whitespace-pre-line">多くの新鮮な青果を、私共は仕入れさせていただいております。
                   そのため、多くの商品の価格を安定させて提供することが可能です。
                   少量ではなく、たくさんの商品をよりいただいてもらえる仕組みにより、身も心も満たしてほしい。
-                  ぜひ、お気軽にお立ち寄りください
+                  ぜひ、お気軽にお立ち寄りください。
                   </Ptag>
                </div>
                <Image src="/fruitspizza.jpg" width={1280} height={720} alt="フルーツカレー" className="md:hidden w-full h-auto rounded-2xl shadow-2xl"/>

@@ -39,7 +39,7 @@ export default function Requestform() {
           <input type="email" name="email" placeholder="メールアドレス" required onChange={handleChange} className="border p-2 w-full" />
           <input type="tel" name="phone" placeholder="電話番号" required onChange={handleChange} className="border p-2 w-full" />
           <textarea name="message" placeholder="お問い合わせ内容" required onChange={handleChange} className="border p-2 w-full h-32" />
-          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">送信</button>
+          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-200">送信</button>
         </form>
       </section>
     </div>
