@@ -3,22 +3,23 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
+import Breadcrumbs from "./components/Breadcrumbs";
 
 
 
 
 export const metadata: Metadata = {
- title: 'Fill　日本初のフルーツカフェ',
- description: '日本で一番最初にできた、果物とコーヒーをかけあわせたカフェ。「コーヒーと果物は合わない」といった偏見を覆す。果物に合うコーヒーの独自開発に成功。さらに果物は自家栽培、農地直送、高級ブランド品まで、こだわったものを取り扱っております。',
- keywords: ['フルーツカフェ', '日本初', '果物コーヒー'],
+ title: 'FiLL　日本唯一の焙煎搾りフルーツカフェ',
+ description: '焙煎技術の特許を取得しており、焙煎搾りを実現した、果物とコーヒーをかけあわせたカフェ。果物に合うコーヒーの独自開発に成功。果物だけでなく野菜もすべて国産にこだわり、現地の農家さんから新鮮なものを直接仕入れさせていただいております',
+ keywords: ['フルーツカフェ', '日本で唯一', '果物コーヒー','特許焙煎'],
  openGraph: {
-   title: 'Fill 日本初のフルーツカフェ',
-   description: '日本で一番最初にできた、果物とコーヒーをかけあわせたカフェ。「コーヒーと果物は合わない」といった偏見を覆す。果物に合うコーヒーの独自開発に成功。さらに果物は自家栽培、農地直送、高級ブランド品まで、こだわったものを取り扱っております。',
-   url: 'https://example.com',
-   siteName: 'Fill 日本初のフルーツカフェ',
+   title: 'FiLL 日本唯一の焙煎搾りカフェ',
+   description: '焙煎技術の特許を取得しており、焙煎搾りを実現した、果物とコーヒーをかけあわせたカフェ。果物に合うコーヒーの独自開発に成功。果物だけでなく野菜もすべて国産にこだわり、現地の農家さんから新鮮なものを直接仕入れさせていただいております',
+   url: 'https://fill-fruitscoffee.vercel.app',
+   siteName: 'FiLL 日本唯一の焙煎搾りカフェ',
    images: [
      {
-       url: 'https://example.com/og-image.jpg',
+       url: '/top_strawberrycoffee.png',
        width: 1200,
        height: 630,
        alt: 'OG画像の代替テキスト',
@@ -27,11 +28,16 @@ export const metadata: Metadata = {
    locale: 'ja_JP',
    type: 'website',
  },
+ metadataBase: new URL(
+    process.env.NODE_ENV === 'production'
+      ? 'https://fill-fruitscoffee.vercel.app/'
+      : 'http://localhost:3000'
+  ),
  twitter: {
    card: 'summary_large_image',
-   title: 'Fill 日本初のフルーツカフェ',
-   description: '日本で一番最初にできた、果物とコーヒーをかけあわせたカフェ。「コーヒーと果物は合わない」といった偏見を覆す。果物に合うコーヒーの独自開発に成功。',
-   images: ['https://example.com/twitter-image.jpg'],
+   title: 'FiLL 日本唯一の焙煎搾りカフェ',
+   description: '特許技術を用いた焙煎搾り、果物とコーヒーをかけあわせたカフェ。「コーヒーと果物は合わない」といった偏見を覆す。果物に合うコーヒーの独自開発に成功。',
+   images: ['/top_strawberrycoffee.png'],
  }
 }
 
@@ -52,7 +58,8 @@ export default function RootLayout({
       </head>
       <body>
           <Header/>
-          <main className="mb-16 pb-8 md:pt-24">
+          <Breadcrumbs/>
+          <main className="mb-16 pb-8 pt-[80px] md:pt-[80px]">
           {children}
           </main>
           <Footer />

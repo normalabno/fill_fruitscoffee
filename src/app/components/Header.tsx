@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-      <header className="max-w-[100vw] h-[60px] md:h-[96px] flex justify-around items-center bg-amber-300 z-50 shadow-xl md:fixed md:w-full">
+      <header className="md:top-0 md:left-0 md:fixed max-w-[100vw] h-[60px] md:h-[80px] flex justify-around items-center bg-amber-300 z-50 shadow-xl md:w-full">
         <div className="mr-16">
           <Link href="/">
             <Image src="/filllogo.png" alt="会社Fillのlogo" width={64} height={64} className="w-[64px] h-[64px] object-contain"/>
