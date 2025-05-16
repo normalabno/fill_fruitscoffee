@@ -1,6 +1,5 @@
 'use client';
 import  H1tag  from "../components/H1tag";
-import Ptag from "../components/Ptag";
 import { useForm, ValidationError } from '@formspree/react';
 import Afterrequest from "../components/Afterrequest";
 //name,email,message

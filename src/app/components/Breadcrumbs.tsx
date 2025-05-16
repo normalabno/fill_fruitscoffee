@@ -16,7 +16,6 @@ const NameMap: Record<string, string> = {
 }
 
 export default function Breadcrumbs() {
-  const page = 'contact'
   const pathname = usePathname()
   const segments = pathname.split('/').filter(Boolean)
   const crumbs = segments.map((segment, index) => {
